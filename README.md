@@ -887,6 +887,8 @@ CurrencyName.Text = "Currency Name"
 CurrencyName.TextColor3 = Color3.fromRGB(255, 255, 255)
 CurrencyName.TextSize = 25.000
 
+print ("everything loaded")
+
 UICorner_45.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_45.Parent = CurrencyName
 
@@ -904,6 +906,8 @@ Arsenal.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))() -- work
 end)
 
+print("arsenal worked")
+
 MM2.Name = "MM2"
 MM2.Parent = ScrollingFrame_3
 MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -917,6 +921,8 @@ MM2.TextSize = 30.000
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
+
+print("mm2 worked")
 
 UICorner_46.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_46.Parent = MM2
@@ -953,9 +959,11 @@ Jailbreak.Font = Enum.Font.Ubuntu
 Jailbreak.Text = "Jailbreak"
 Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
 Jailbreak.TextSize = 30.000
---Jailbreak.MouseButton1Down:connect(function()
-	
---end)
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubus"))()
+end)
+
+print("jailbreak worked")
 
 UICorner_47.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_47.Parent = Jailbreak
@@ -974,6 +982,7 @@ Brookhaven.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/60832e7d04766a6381194d7502fbb1e8/raw/fbecd900a62e1fa054998f02084475b6c4ed8f18/woah", true))()
 end)
 
+print("brookhaven worked")
 
 UICorner_48.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_48.Parent = Brookhaven
@@ -992,6 +1001,8 @@ RagdollSim.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 end)
 
+print("ragdoll worked")
+
 UICorner_49.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_49.Parent = RagdollSim
 
@@ -1008,6 +1019,8 @@ DaHood.TextSize = 30.000
 DaHood.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/pURPLEGuYyy/2c412c412c412c412c412c4/main/README.md", true))()
 end)
+
+print("dahood worked")
 
 UICorner_50.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_50.Parent = DaHood
@@ -1080,6 +1093,7 @@ local function XUEIL_fake_script() -- Other_2.LocalScript
 		script.Parent.Parent.Parent.Other.ScrollingFrame.Visible = true
 	end)
 end
+print("line 1096 check")
 coroutine.wrap(XUEIL_fake_script)()
 local function NSGDI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
@@ -1114,6 +1128,7 @@ local function HERXF_fake_script() -- TextButton_2.LocalScript
 		scroll3.ScrollBarImageColor3 = color
 	end)
 end
+print("line 1131 check")
 coroutine.wrap(HERXF_fake_script)()
 local function ZYOEXLU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
@@ -1148,6 +1163,7 @@ local function HAJA_fake_script() -- TextButton_4.LocalScript
 		scroll3.ScrollBarImageColor3 = color
 	end)
 end
+print("line 1166 check")
 coroutine.wrap(HAJA_fake_script)()
 local function CWFXK_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
@@ -1165,6 +1181,7 @@ local function CWFXK_fake_script() -- TextButton_5.LocalScript
 		scroll3.ScrollBarImageColor3 = color
 	end)
 end
+print("line 1184 check")
 coroutine.wrap(CWFXK_fake_script)()
 local function TIGZX_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
@@ -1199,6 +1216,7 @@ local function IMUY_fake_script() -- TextButton_7.LocalScript
 		scroll3.ScrollBarImageColor3 = color
 	end)
 end
+print("line 1219 check")
 coroutine.wrap(IMUY_fake_script)()
 local function QTCVWPW_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
@@ -1327,6 +1345,7 @@ local function BEOZAJ_fake_script() -- Other_4.LocalScript
 		back.BackgroundColor3 = color
 	end)
 end
+print("line 1348 check")
 coroutine.wrap(BEOZAJ_fake_script)()
 local function SRBWNDY_fake_script() -- Other_5.LocalScript 
 	local script = Instance.new('LocalScript', Other_5)
@@ -1431,6 +1450,7 @@ local function DXSGZOU_fake_script() -- Other_11.LocalScript
 		back.BackgroundColor3 = color
 	end)
 end
+print("line 1353 checl")
 coroutine.wrap(DXSGZOU_fake_script)()
 local function KFEGTX_fake_script() -- Other_12.LocalScript 
 	local script = Instance.new('LocalScript', Other_12)
@@ -1505,6 +1525,7 @@ local function CTBFKPZ_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
+print("line 1528 check")
 coroutine.wrap(CTBFKPZ_fake_script)()
 local function TUGADYJ_fake_script() -- Main_2.LocalScript 
 	local script = Instance.new('LocalScript', Main_2)
@@ -1558,6 +1579,7 @@ local function IQLKSLE_fake_script() -- Health_2.LocalScript
 		humanoid.MaxHealth = tonumber(hvalue) or 100
 	end)
 end
+print("line 1582 check")
 coroutine.wrap(IQLKSLE_fake_script)()
 local function WZWJP_fake_script() -- Jump.LocalScript 
 	local script = Instance.new('LocalScript', Jump)
